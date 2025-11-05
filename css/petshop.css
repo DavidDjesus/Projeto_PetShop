@@ -1,0 +1,94 @@
+/* Tags Gerai*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(../img/fundo-topo.jpg);
+    text-align: center;
+    padding: 10px 0;
+}
+header h1{
+    margin: 0;
+    height: 84px;
+}
+nav{
+    padding: 15px 0;
+    text-align: center;
+    margin-right: 10px;
+}
+nav li{
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    display: inline;
+    background-position: center right;
+    margin-right: 10px;
+    padding-right: 27px;    
+}
+nav a{
+    color: #000;
+   text-decoration: none ;
+}
+nav a:hover{
+    color: #6dd432;
+}
+.Fundo-verde{
+    background-color: #bdff9c;
+}
+.conteiner{
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.Flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-conteiner .col{
+    width: 430px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#itemContatos{
+    background-image: none;
+    padding-right: 0;
+    padding-left: 0;
+}
+#Produto .Flex-conteiner{
+    margin: 43px;
+}
+.produto{
+    width: 235px;
+}
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #FFF;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+}
+.texto-centralizado{
+    text-align: center;
+}
+.produto figure img{
+    vertical-align: middle;
+}
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
