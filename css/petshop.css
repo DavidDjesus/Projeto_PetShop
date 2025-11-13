@@ -27,7 +27,7 @@ nav li{
     display: inline;
     background-position: center right;
     margin-right: 10px;
-    padding-right: 27px;    
+    padding-right: 30px;    
 }
 nav a{
     color: #000;
@@ -42,14 +42,14 @@ nav a:hover{
 .conteiner{
     width: 900px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 56px 0;
 }
 .Flex-conteiner{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.flex-conteiner .col{
+.Flex-conteiner .col{
     width: 430px;
 }
 
@@ -75,6 +75,7 @@ h2{
     padding: 0;
     text-align: center;
     height: 160px;
+    line-height: 160px;
 }
 .texto-centralizado{
     text-align: center;
@@ -91,4 +92,22 @@ h2{
     color: #000;
     border-radius: 5px;
     cursor: pointer;
+}
+form{
+    width: 380px;
+}
+form input,
+form textarea{
+    width: 100%;
+    border: 3px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+iframe{
+    width: 100%;
+}
+#produto .flex-conteiner, #contato .flex-conteiner{
+    margin: 43px;
 }
